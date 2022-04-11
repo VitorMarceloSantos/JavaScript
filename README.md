@@ -1,4 +1,4 @@
 # JavaScript
 Curso JavaScript - Udemy
 
-Contem: Aulas e Exercicios
+Contem: Aulas, Exercicios e Projeto

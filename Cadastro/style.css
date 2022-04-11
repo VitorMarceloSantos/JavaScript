@@ -1,0 +1,72 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "Mom";
+    src: url("fonts/Mom.ttf") format('truetype');
+}
+body{
+    background-image: linear-gradient(to right, #2956a49f, #8CB7FF,transparent);
+}
+header > a{
+    text-decoration: none;
+}
+header > a > h1{
+    font-family: "Mom";
+    font-size: 2.5em;
+    color: #2957A4;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+nav{
+    background-color: #0F3EF5;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+nav > ul > a >li{
+    display: inline-block;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1.1em;
+}
+nav > ul > a > li:hover{
+    background-color: #1AB1E8;
+    color: blanchedalmond;
+}
+main{
+    margin-top: 40px;
+}
+.geral{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
+    text-align: center;
+}
+.geral > p{
+    line-height: 30px;
+    font-weight: bold;
+}
+.btn_confirmar{
+    width: 90px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #0FF5B5;
+    font-weight: 600;
+    color: #0F3EF5;
+    display: block; 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

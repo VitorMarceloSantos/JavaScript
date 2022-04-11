@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" target="_self" rel="internal">
+            <h1>Programa - Identificação</h1>
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html" target="_self" rel="internal">
+                <li>Cadastrar</li>
+            </a>
+            <a href="localizar.html" target="_self" rel="internal">
+                <li>Localizar</li>
+            </a>
+            <a href="duvidas.html" target="_self" rel="internal">
+                <li>Dúvidas</li>
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <section> <!--Localizar Usário-->
+            <article id="buscar" class="geral">
+                <p>Buscar por:</p>
+                <input type="radio" name="rad_busca" id="cpf_busca">
+                <label for="cpf_busca">CPF</label>
+                <input type="radio" name="rad_busca" id="nome_busca">
+                <label for="nome_busca">Nome</label>
+                <input type="button" id="btn_confirmar_busca" class="btn_confirmar" value="Confirmar" onclick="confirmar_busca()">
+            </article>
+            <article id="resultado_busca">
+
+            </article> <!--Apresentar o resultado-->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

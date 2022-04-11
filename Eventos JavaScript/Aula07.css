@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#tamanho{
+    height: 2000px;
+    background-color: aqua;
+}

@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    margin: auto;
+    background-color: bisque;
+}
+header{
+    font-family: cursive;
+    color: darkorange;
+    text-shadow: 2px 2px 2px black;
+}
+#div_01{
+    background-color: whitesmoke;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1px 20px 20px 20px;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+#div_02{
+    
+    background-color: whitesmoke;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px 20px 20px 20px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+footer{
+    font-family: cursive;
+    color: darkorange;
+    text-shadow: 2px 2px 2px black;
+}

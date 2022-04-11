@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <p>Formulário de Cadastramento</p>
+    </header>
+    <section id="section_01">
+        <div id="formulario">
+            Nome:
+            <input type="text" name="nome_input" id="nome_input"><br>
+            CPF:
+            <input type="number" name="cpf_input" id="cpf_input"><br>
+            Data Nascimento:
+            <input type="number" name="nascimento_input" id="nascimento_input">
+            
+        </div>
+        <div id="section_02">
+            Sexo:
+            <input type="radio" name="sexo_rad" id="sexo_mas_radio" value="Masculino" checked> <!--Colocar os valores que cada botão representa, nesse caso uma string-->
+            <label id="label_01" for="sexo_mas_radio">Masculino</label>
+            <input type="radio" name="sexo_rad" id="sexo_fem_radio" value="Feminino">
+            <label id="label_02" for="sexo_fem_radio">Feminino</label>
+        </div>
+            <div id="section_03">
+            <p>Áreas de Interesse:</p>
+            <input type="checkbox" name="interesse_checkbox" id="programacao" value="Programação">
+            <label for="programacao">Programação</label>
+            <input type="checkbox" name="interesse_checkbox" id="esporte" value="Esportes">
+            <label for="esporte">Esportes</label>
+            <input type="checkbox" name="interesse_checkbox" id="musica" value="Músicas">
+            <label for="musica">Músicas</label>
+            <input type="checkbox" name="interesse_checkbox" id="livros" value="Livros">
+            <label for="livros">Livros</label>                <br> <!--Quebra de linha para separar os botões-->
+            <input id="Novo_cadastro_btn" type="button" value="Novo Cadastro" onclick="Novo_cadastro()">
+            <input id="Finalizar_btn" type="button" value="Finalizar" onclick="Finalizar()">
+        </div>
+        
+        
+        <div id="resultado">
+            <h2>Resultado:</h2>
+        </div>
+        
+    </section>
+</body>
+</html>

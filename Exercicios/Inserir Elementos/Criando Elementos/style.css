@@ -1,0 +1,70 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.486) ,white);
+}
+header h1{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.8em;
+    font-family: fantasy;
+    color: darkblue;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+}
+section.principal{
+    background-color: white;
+    margin: auto;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.493);
+    min-width: 250px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
+    margin-bottom: 20px;
+}
+section#tela{
+    background-color: white;
+    margin: auto;
+    height: 350px;
+    padding: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.493);
+    min-width: 250px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
+}
+
+p.txtinput{
+    display: inline;
+}
+footer > small > a{
+    text-decoration: none;
+}
+footer > small > a:hover{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+footer > small > a:active{
+    color: darkred;
+}
+footer{
+    background-color: aliceblue;
+    height: 20px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
+    padding: 5px;
+}

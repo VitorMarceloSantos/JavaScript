@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, #F5C3B3, #FFE8AB, #77FEC0, #CEDFF5);
+text-align: center;
+}
+header{
+    font-family: fantasy;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: #F5C3B3 ;
+}
+#nome_input, #cpf_input, #nascimento_input{
+    margin: 10px 0 10px 0;
+}
+#formulario{
+    background-color: rgba(240, 248, 255, 0.637);
+    width: 350px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px;    
+}
+#section_02{
+    background-color: rgba(240, 248, 255, 0.637);
+    width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 10px;    
+}
+#section_03{
+    background-color: rgba(240, 248, 255, 0.637);
+    width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 10px;    
+}
+#Novo_cadastro_bt, #Finalizar_btn{
+    margin: 10px;
+}
+#resultado{
+    background-color: rgba(240, 248, 255, 0.637);
+    width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 10px;    
+}
+h2{
+    color: #77FEC0;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+}

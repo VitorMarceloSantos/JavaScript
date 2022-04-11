@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body><!--carrega a função ao iniciar a execução-->
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    <main>
+        <div id="formulario">
+            Nome:
+            <input type="text" name="nome_txt" id="nome_txt"><br>
+            CPF:
+            <input type="number" name="cpf_txt" id="cpf_txt"><br>
+            Endereço:
+            <input type="text" name="endereco_txt" id="endereco_txt"><br>
+            <input id="criar_cadastro_btn" type="button" value="Criar Cadastro" onclick="Criar_cadastro()" onmouseenter="Alterar_btn_01()" onmouseout="Voltar_btn_01()">
+            <input id="finalizar_btn" type="button" value="Finalizar" onclick="Finalizar()" onmouseenter="Alterar_btn_02()" onmouseout="Voltar_btn_02()">
+        </div>
+        <div id="apresentacao">
+            <h2 style="color: #404e9bad;">Usuários Cadastrados:</h2>
+        </div>
+        
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

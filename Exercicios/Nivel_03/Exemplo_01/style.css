@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(to right, #F2B3BF, #BF7E96, #463859);
+    text-align: center;
+    margin: auto;
+}
+header{
+    color:#0F1B40;
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px #404e9bad;
+}
+#nome_txt, #cpf_txt, #endereco_txt{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+#formulario{
+    background-color: whitesmoke;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #4d3d63b4;
+}
+#apresentacao{
+    background-color: whitesmoke;
+    width: 400px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #4d3d63b4;
+}

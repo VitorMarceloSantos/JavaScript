@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Idade</h1>
+    </header>
+    <main>
+        <section class="principal">
+            <p class="txtinput">Entre com o ano de nascimento:</p>
+            <input type="number" name="txtano" id="txtano"> <br>
+            <p class="txtinput">Entre com o sexo:</p>
+            <input type="radio" name="radsexo" id="txtmasc" value="masculino" checked>
+            <label for="txtmas">Masculino</label>
+            <input type="radio" name="radsexo" id="txtfem" value="feminino">
+            <label for="txtfem">Feminino</label><br>
+            <input type="button" value="Enviar" onclick="enviar()">
+        </section>
+        <section id="tela">
+
+        </section>
+    </main>
+    <footer>
+        <small>Site desenvolvido por <a href="@" target="_blank" rel="external">Vitor Marcelo</a></small>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

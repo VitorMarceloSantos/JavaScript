@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 03</title>
+</head>
+<body>
+    <header>
+        <h1>Maior e Menor Número</h1>
+    </header>
+    <section id="section_01">
+        <div id="div_01">
+            Digite o número desejado:
+            <input type="number" name="number_txt" id="number_txt">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br>
+            <input id="verificar_btn" type="button" value="Verificar" onclick="verificar()" onmouseenter="alterar_cor()" onmouseout="voltar_cor()"> <!--alterando a cor do botão "Verificar"-->
+        </div>
+        <div id="div_02">
+           <div id="resultado"></div>
+        </div>
+    </section>
+    <footer>
+        <h2>&copy;Economilhas</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

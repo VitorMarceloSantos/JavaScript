@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 06</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section id="section_01">
+        <div id="div_01">
+            <p>Entre com os números:</p>
+            <input type="number" name="numberbtn" id="numberbtn">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            
+        </div>
+        <div id="div_02">
+            <input type="radio" name="operacao" id="somar">
+            <label for="somar">Somar</label>
+            <input type="radio" name="operacao" id="media">
+            <label for="media">Média</label>
+            <br>
+            <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id="div_03">
+            <h2 id="txt_resultado">Resultado:</h2>
+            <p id="resultado"></p>
+        </div>
+    </section>
+    <script src="array.js"></script>
+    
+</body>
+</html>

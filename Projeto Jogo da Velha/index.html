@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    <nav id="buttons-container">
+        <button id="2-players"> 2 Jogadores</button> 
+        <button id="ai-player"> Contra A.I.</button>
+    </nav>
+    <main class="hide" id="container-principal">
+        <section  id="container" > <!--Tabuleiro da Velha                             -->
+            <div class="box" id="block-1"></div>
+            <div class="box" id="block-2"></div>
+            <div class="box" id="block-3"></div>
+            <div class="box" id="block-4"></div>
+            <div class="box" id="block-5"></div>
+            <div class="box" id="block-6"></div>
+            <div class="box" id="block-7"></div>
+            <div class="box" id="block-8"></div>
+            <div class="box" id="block-9"></div>
+        </section>
+        <section id="scoreboard-container"> <!--Placar: sendo dividido em 2, um para cada jogador.-->
+            <h2>Placar:</h2>
+            <span class="score-box">
+                <span id="x-scoreboard">X</span>:
+                <span id="scoreboard-1">0</span>
+            </span>
+            <span class="score-box">
+                <span id="o-scoreboard"></span>: <!--Circulo será escrito com CSS.-->
+                <span id="scoreboard-2">0</span>
+            </span>
+        </section>
+        <section class="hide">
+            <div class="x">X</div>
+            <div class="o"></div><!--Circulo será escrito com CSS.-->
+        </section>
+        <section id="message" class="hide">
+            <p></p><!--Mensagem do Vencedor-->
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
